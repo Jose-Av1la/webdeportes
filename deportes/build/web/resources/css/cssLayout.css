@@ -1,0 +1,81 @@
+body{
+
+/* uso de tipo e letra*/
+
+	font-family: arial, helvetica;
+	background: #FFFFFF;
+}
+#top {
+    position: relative;
+    background-color: #036fab;
+    color: white;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+    position: relative;
+ }
+
+#bottom {
+    position: relative;
+    background-color: #c2dfef;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+#left {
+    float: left;
+    background-color: #ece3a5;
+    padding: 20px;
+    width: 200px;
+         
+  height:1155px; 
+
+  right: 0px;
+  bottom: 0px;
+    
+}
+
+#right {
+    float: right;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 230px;
+    height:1165px; 
+
+}
+
+.center_content {
+    position: relative;
+    background-color: #dddddd;
+    padding: 5px;
+}
+
+.left_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin-left: 100px;
+    width: 100px;
+  height:100px;  
+
+  right: 100px;
+  bottom: 0px;
+}
+
+.right_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin: 0px 250px 0px 250px;
+}
+
+#top a:link, #top a:visited {
+  color: white;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+  color: black;
+  font-weight : bold;
+  text-decoration : underline;
+}
+
+
